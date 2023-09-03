@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: rgb(130, 163, 212);
+  }
+
+.parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+form {
+    min-width: 400px;
+    min-height: 200px;
+    border: 1px solid rgb(130, 163, 212);
+    background-color: white;
+}
+
+header {
+    background-color: rgb(9, 143, 184);
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+
+}
+
+.labelname, .labelemail, .labelnums, .labelurl {
+    width: 38%;
+}
+
+label {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.input-control, .message {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.names, .emails, .nums, .pass {
+    width: 55%;
+}
+
+input {
+    border: 1px solid rgba(219, 219, 16, 0.911);
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+}
+
+.submit {
+    width: 100%;
+    height: 40px;
+}
+
+
+.fname-error, .pass-error, .email-error, .code-error, .phone-error, .url-error {
+    color: rgb(255, 156, 156);
+    font-size: 15px;
+    margin-top: 5px;
+    
+}
+
+
